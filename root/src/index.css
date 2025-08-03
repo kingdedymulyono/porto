@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  width: 100dvw;
+  height: 100dvh;
+  background-image: url(src/assets/bgweb.svg);
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+}
+.box::before,
+.box::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-image: conic-gradient(from var(--angle),#0d6efd,blue,indigo);
+    /* top:100%; */
+    animation: animate 2s ease-in infinite;
+    z-index: -2;
+}
+.box::before{
+    transform: scale(1.064);
+    filter: blur(20px);
+    /* top:200%; */
+}
+.box img{
+    max-width: 100%;
+}
+@keyframes animate {
+    to{
+        --angle:360deg;
+    }
+}

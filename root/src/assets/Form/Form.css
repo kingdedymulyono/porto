@@ -1,0 +1,28 @@
+.formBox{
+    /* background-image: rgba(255,255,255,1); */
+    backdrop-filter: blur(12px);
+}
+input{
+    cursor: pointer;
+}
+#btn1{
+    transition: 2s;
+    transition-delay: 1s;
+    padding-right: 2rem !important;
+}
+#btn1 svg{
+    position: relative;
+    right: 2rem;
+    transition: 1s;
+}
+#btn1:hover > svg {
+    right: 0;
+    transition: 1s;
+}
+#btn1:hover{
+    transition: 2s;
+}
+input::placeholder{
+    color: #052c65 !important;
+    font-weight: 100;
+}
