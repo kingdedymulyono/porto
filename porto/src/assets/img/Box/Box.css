@@ -1,0 +1,65 @@
+.box {
+    min-height: 50dvh;
+}
+#topDiv{
+    margin-top: 0 !important;
+}
+#box1 {
+    /* padding; */
+    background-image: linear-gradient(135deg, #0d6efd, #ffffff);
+    width: 100dvw !important;
+}
+#btn1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 4px white;
+    transition: 1s;
+    transition-delay: 0.4s;
+    position: relative;
+    margin-top: 8rem !important;
+    font-size: 1.8rem;
+}
+
+.boxImg {   
+    width: 25dvw !important;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    box-shadow: inset 0 0 8px #0d6efd, 0 0 24px #0d6efd;
+}
+.fadeBox{
+    /* background-color: black; */
+    height: 10dvw;
+    background-image: linear-gradient(to top,#fff,transparent);
+}
+#btn1:hover {
+    box-shadow: inset 0 -160px 4px white;
+    transition: 1s;
+    color: black;
+    transform: translateY(-4px);
+}
+
+@media (max-width:640px) {
+    #btn1{
+        margin-top: 2rem !important;
+        font-size: 1.5rem;
+    }
+    #box1{
+        margin-top:0 ;
+    }
+    .flexRow {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    #noFlex1{
+        flex-direction: row !important;
+    }
+    .halfDiv{
+        width: 100dvw !important;
+        padding: 0 !important;
+    }
+    .boxImg{
+        width: 64dvw !important;
+    }
+    .smallCard{
+        display: none   ;
+    }
+}

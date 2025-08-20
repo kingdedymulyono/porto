@@ -1,0 +1,8 @@
+body{
+    all: unset;
+    display: block !important;
+    place-items: inherit !important;
+    min-width: 100dvw !important;
+    min-height: 100dvh !important;
+    overflow-x: hidden;
+}
