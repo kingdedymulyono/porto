@@ -1,0 +1,273 @@
+.box {
+    min-height: 50dvh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#topDiv {
+    margin-top: 0 !important;
+    display: flex;
+}
+
+#topDiv h1 {
+    font-size: clamp(4rem, 5vw + 1rem, 12rem);
+}
+
+#topDiv h4 {
+    margin-top: 1rem !important;
+    font-size: clamp(2rem, 3vw + 1rem, 6rem);
+}
+
+.halfDiv {
+    width: 50%;
+}
+
+.halfDivJcs {
+    justify-content: center;
+}
+
+#box1 {
+    /* padding; */
+    background-image: linear-gradient(135deg, #0d6efd, #ffffff);
+    width: 100dvw !important;
+}
+
+#btn1 {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 4px white;
+    transition: 1s;
+    transition-delay: 0.4s;
+    position: relative;
+    margin-top: 8rem !important;
+    font-size: 1.8rem;
+    width: fit-content;
+}
+
+#btn1 a {
+    color: white;
+    transition: color 0.6s;
+}
+
+#btn1:hover a {
+    color: black;
+    transition: color 0.6s;
+}
+
+/* #box100{
+    height: 100%;
+    } */
+#box2 {
+    height: 100dvh !important;
+}
+
+#box3 {
+    height: 100dvh !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+#box4 {
+    min-height: 100dvh !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+
+#bgbox3 {
+    /* background-color: #0d6efd; */
+    background-image: url("../../../../public/bg1.png");
+    background-size: contain;
+    /* width: 96dvw !important; */
+    /* margin: 0 auto; */
+}
+
+.glass {
+    backdrop-filter: blur(12px);
+}
+
+.glassDiv {
+    background-color: white !important;
+    border: 0 !important;
+}
+
+.actionBtn {
+    background-color: transparent !important;
+    transition: 1s;
+    padding: 1rem !important;
+}
+
+.boxImg {
+    width: 40dvw !important;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.fadeBox {
+    /* background-color: black; */
+    height: 10dvw;
+    background-image: linear-gradient(to top, #fff, transparent);
+}
+
+.reverseFadeBox {
+    height: 16dvw;
+    width: 100dvw;
+    background-image: linear-gradient(to bottom, #fff, transparent);
+}
+
+#btn1:hover {
+    box-shadow: inset 0 -160px 4px white;
+    transition: 1s;
+    color: black !important;
+    transform: translateY(-4px);
+}
+
+.actionBtn:hover {
+    background-color: black !important;
+    color: white !important;
+    transition: 1s;
+}
+
+.textBox1 {
+    max-width: 32dvw !important;
+}
+
+.projectImg {
+    /* min-width: 24dvw !important; */
+    aspect-ratio: 3/2 !important;
+    object-fit: cover;
+}
+
+.smallCard {
+    width: 40% !important;
+}
+
+.skillBox {
+    /* width: 100dvw !important; */
+    padding: 4rem;
+}
+
+.skillImg {
+    max-width: 24dvw !important;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+#footer {
+    height: fit-content;
+    width: 100dvw;
+}
+
+#flexjca {
+    justify-content: space-around !important;
+    margin-bottom: 4rem;
+    color: black;
+}
+
+#flexjca a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.mt-4 {
+    margin-top: 4rem !important;
+}
+
+@media (max-width:960px) {
+    .skillImg {
+        max-width: 36dvw !important;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    #btn1 {
+        padding: 1rem !important;
+        font-size: 1.6rem;
+    }
+
+    #skillFlex {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width:640px) {
+
+    .heroDiv {
+        width: fit-content !important;
+        overflow: hidden;
+    }
+
+    .halfDivJcs {
+        justify-content: start !important;
+    }
+
+    #topDiv {
+        flex-direction: column !important;
+    }
+
+    #topDiv h1 {
+        font-size: 4rem;
+    }
+
+    #topDiv h4 {
+        font-size: 2rem;
+    }
+
+    #btn1 {
+        margin-top: 2rem !important;
+        font-size: 1.5rem;
+    }
+
+    #box1 {
+        margin-top: 0;
+    }
+
+    .flexRow {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    #flexjca {
+        flex-direction: row !important;
+    }
+
+    .textBox1 {
+        max-width: 90dvw !important;
+    }
+
+    #noFlex1 {
+        flex-direction: row !important;
+    }
+
+    /* #reverseFlex1{
+        flex-direction: row-reverse !important  ;
+    } */
+    #noRow1 {
+        flex-direction: row !important;
+    }
+
+    .halfDiv {
+        width: 100dvw !important;
+        padding: 0 !important;
+    }
+
+    .boxImg {
+        width: 80dvw !important;
+    }
+
+    .smallCard {
+        display: none;
+        width: 100% !important;
+    }
+
+    .skillBox {
+        width: fit-content !important;
+        padding: .4rem;
+    }
+
+    .phoneCardBox {
+        width: 80dvw !important;
+    }
+}
