@@ -7,7 +7,7 @@ body {
     max-width: 100dvw !important;
 }   
 .heroDiv{
-    width: fit-content !important   ;
+    /* width: fit-content !important   ; */
     overflow: hidden;
 }
 button {
@@ -20,4 +20,11 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+@media (max-width:720px) {
+  .heroDiv{
+    width: fit-content !important   ;
+    overflow: hidden;
+}
 }
