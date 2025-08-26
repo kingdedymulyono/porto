@@ -21,7 +21,17 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-
+.link{
+  transition:all 1s;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(0,0 , 0, 0.1);
+}
+.link:hover{
+  color: white !important;
+  background-color: black;
+  transition:all 1s;
+  cursor: pointer;
+}
 @media (max-width:720px) {
   .heroDiv{
     width: fit-content !important   ;
