@@ -140,14 +140,10 @@
             <div class="p-4" id='box3'>
                 <div data-aos="fade-up" data-aos-delay="64" class="glass p-3 rounded-5">
                     <div data-aos="fade-up" data-aos-delay="100" class="d-flex flexRow justify-content-center gap-2"
-                        id="reverseFlex1">
+                        id="projectImage" >
                         <div class="d-flex flex-column justify-content-center gap-2">
                             <div class="border border-black p-2 rounded-4 w-100 shadow-sm h-100 glassDiv">
-                                <div class="textBox1" id="textBox1">
-                                    Aplikasi ini membantumu untuk mengatur daftar tugas harian. Kamu bisa menambah,
-                                    menandai selesai, dan menghapus tugas yang sudah tidak diperlukan. Aplikasi ini
-                                    cocok untuk siapa saja yang ingin lebih terorganisir dan tidak melewatkan tenggat
-                                    waktu penting.
+                                <div class="textBox1" id="projectText">
                                 </div>
                             </div>
                         </div>
@@ -160,14 +156,16 @@
                                 </div>
                                 <div class="border border-black p-2 rounded-4 w-100 shadow-sm h-100 glassDiv">
                                     <div class="d-flex flex-row flexRow justify-content-center gap-2" id='noRow1'>
-                                        <button class='actionBtn border border-black text-black' id="prev"><- </button>
+                                        <button class='actionBtn border border-black text-black' id="prev" onclick="handleChangePrev()"><- </button>
                                                 <div class='p-2 w-50 text-center'>
                                                     <div
-                                                        class="border border-black p-2 rounded-4 w-100 shadow-sm h-100">
-                                                        Lorem, ipsum.
+                                                        id="projectName"
+                                                        class="border border-black p-2 
+                                                        rounded-4 w-100 shadow-sm h-100">
                                                     </div>
                                                 </div>
-                                                <button class='actionBtn border border-black text-black' id="next">->
+                                                <button class='actionBtn border border-black text-black' id="next"
+                                                onclick="handleChangeNext()">->
                                                 </button>
                                     </div>
                                 </div>
