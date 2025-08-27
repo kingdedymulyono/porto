@@ -21,6 +21,27 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+.myImg{
+  max-width: 4dvw ;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.friendImg{
+  max-width: 4dvw ;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-left: -.64rem;
+  transition: all 0.4s;
+  position: relative;
+}
+.friendImg:hover{
+  margin-right: .5rem;
+  transition: 0.6s;
+  bottom: 4px;
+}
 .link{
   transition:all 1s;
   padding: 0.2rem 0.4rem;
