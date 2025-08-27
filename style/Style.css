@@ -47,6 +47,9 @@ button {
   padding: 0.2rem 0.4rem;
   background-color: rgba(0,0 , 0, 0.1);
 }
+#bgbox3{
+  background-image: url("../public/bg1.png");
+}
 .link:hover{
   color: white !important;
   background-color: black;

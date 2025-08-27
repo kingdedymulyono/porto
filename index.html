@@ -20,33 +20,40 @@
 <body>
     <div id="box1">
         <div class="" id="topDiv">
-            <div data-aos="fade-up" class="heroDiv halfDiv mx-4">
+            <div data-aos="fade-up" class="heroDiv halfDiv">
                 <div class="heroDiv d-flex flex-column">
-                    <h4 class='m-0 text-white fw-light'>FrontEnd Dev</h4>
-                    <h1 class='m-0 text-white fw-bold'>HELLO , IM </h1>
-                    <h1 class='m-0 text-white fw-bold'>DEDYAS</h1>
-                    <button id='btn1' class='p-3 mt-2 rounded-pill border-2 border-light d-flex align-items-center justify-content-center'>
+                    <h4 class='m-1 text-white fw-light'>FrontEnd Dev</h4>
+                    <h1 class='m-1 text-white fw-bold'>HELLO , IM </h1>
+                    <h1 class='m-1 text-white fw-bold'>DEDYAS</h1>
+                    <button id='btn1'
+                        class='p-3 m-2 rounded-pill border-2 border-light d-flex align-items-center justify-content-center'>
                         <a class=' text-decoration-none' target="_blank" href="https://github.com/kingdedymulyono">
                             <img src="" alt="">
                             Visit Me On Github
-                            <img src="https://avatars.githubusercontent.com/u/223222620?v=4" alt="" class="myImg shadow-sm m-0">
+                            <img src="https://avatars.githubusercontent.com/u/223222620?v=4" alt=""
+                                class="myImg shadow-sm m-0">
                         </a>
                     </button>
                     <div class="friend text-white fw-light mx-4 p-1">
                         Friends
                         <div class="d-flex">
-                            <img src="https://avatars.githubusercontent.com/u/99881216?s=130&v=4" alt="" class="friendImg shadow-sm">
-                            <img src="http://avatars.githubusercontent.com/u/173541951?s=130&v=4" alt="" class="friendImg shadow-sm">
-                            <img src="https://avatars.githubusercontent.com/u/183389514?s=130&v=4" alt="" class="friendImg shadow-sm">
-                            <img src="https://avatars.githubusercontent.com/u/217588629?s=130&v=4" alt="" class="friendImg shadow-sm">
-                            <img src="https://avatars.githubusercontent.com/u/148072933?s=130&v=4" alt="" class="friendImg shadow-sm">
+                            <img src="https://avatars.githubusercontent.com/u/99881216?s=130&v=4" alt=""
+                                class="friendImg shadow-sm">
+                            <img src="http://avatars.githubusercontent.com/u/173541951?s=130&v=4" alt=""
+                                class="friendImg shadow-sm">
+                            <img src="https://avatars.githubusercontent.com/u/183389514?s=130&v=4" alt=""
+                                class="friendImg shadow-sm">
+                            <img src="https://avatars.githubusercontent.com/u/217588629?s=130&v=4" alt=""
+                                class="friendImg shadow-sm">
+                            <img src="https://avatars.githubusercontent.com/u/148072933?s=130&v=4" alt=""
+                                class="friendImg shadow-sm">
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="halfDiv heroDiv m-4">
-                <div class=" d-flex heroDiv halfDivJcs">
+                <div data-aos="fade-up" data-aos-delay="100" class=" d-flex heroDiv halfDivJcs">
                     <img class='placeholder boxImg bg-light-subtle rounded-circle' src="./public/dedyas.png" alt="" />
                 </div>
             </div>
@@ -60,7 +67,7 @@
             <strong class='fw-bold'>better </strong>version of yourself than <strong class='fw-bold'>yesterday</strong>"
         </h4>
     </i>
-    <h5 data-aos="fade-up" data-aos-delay="300" class='mt-4 w-75 mx-auto fw-light'>
+    <h5 data-aos="fade-up" data-aos-delay="300" class='mt-4 w-75 mx-auto fw-light' id="quote">
         <span class=' text-center'>
             Hello 👋 my name is <b class=' fw-bold'>DEDYAS,</b><br />
         </span>
@@ -82,7 +89,7 @@
                 <div class="w-75 d-grid gap-2 mx-auto my-4">
                     <div data-aos="fade-up" data-aos-delay="250"
                         class="border border-black p-3 rounded-4 w-100 shadow-sm">
-                        <h5 class=" fw-bold">Myself
+                        <h5 class=" fw-bold" id="myself">Myself
                             <i class="fa fa-user-circle" aria-hidden="true"></i>
                         </h5>
                         <p class='m-0 fw-light'><b>Saya</b> adalah seorang developer yang memiliki cita cita untuk
@@ -140,7 +147,7 @@
             <div class="p-4" id='box3'>
                 <div data-aos="fade-up" data-aos-delay="64" class="glass p-3 rounded-5">
                     <div data-aos="fade-up" data-aos-delay="100" class="d-flex flexRow justify-content-center gap-2"
-                        id="projectImage" >
+                        id="projectImage">
                         <div class="d-flex flex-column justify-content-center gap-2">
                             <div class="border border-black p-2 rounded-4 w-100 shadow-sm h-100 glassDiv">
                                 <div class="textBox1" id="projectText">
@@ -150,22 +157,21 @@
                         <div>
                             <div class="d-flex flex-column justify-content-center gap-2">
                                 <div class="border border-black p-2 rounded-4 w-100 shadow-sm h-100 glassDiv">
-                                    <figure class='d-flex flex-column'>
-                                        <img src="./public/diddy.jpeg" class='rounded-2 projectImg m-0' />
+                                    <figure id="projectFigure" class='d-flex flex-column justify-content-center'>
+                                        <img id="projectImg" class='rounded-2 projectImg m-0' />
                                     </figure>
                                 </div>
                                 <div class="border border-black p-2 rounded-4 w-100 shadow-sm h-100 glassDiv">
                                     <div class="d-flex flex-row flexRow justify-content-center gap-2" id='noRow1'>
-                                        <button class='actionBtn border border-black text-black' id="prev" onclick="handleChangePrev()"><- </button>
+                                        <button class='actionBtn border border-black text-black' id="prev"
+                                            onclick="handleChangePrev()"><- </button>
                                                 <div class='p-2 w-50 text-center'>
-                                                    <div
-                                                        id="projectName"
-                                                        class="border border-black p-2 
+                                                    <div id="projectName" class="border border-black p-2 
                                                         rounded-4 w-100 shadow-sm h-100">
                                                     </div>
                                                 </div>
                                                 <button class='actionBtn border border-black text-black' id="next"
-                                                onclick="handleChangeNext()">->
+                                                    onclick="handleChangeNext()">->
                                                 </button>
                                     </div>
                                 </div>
@@ -178,7 +184,7 @@
         <div class="fadeBox"></div>
     </div>
     <div class="box4" id="box4">
-        <h2 class='text-center fw-medium'>
+        <h2 class='text-center fw-medium' id="skill">
             SKILLS
         </h2>
         <div class="w-75 mx-auto skillBox">
@@ -239,9 +245,9 @@
                 <div class="">
                     <div class="d-flex flex-column justify-content-center gap-2">
                         <span class=' fw-bold'>About Me</span>
-                        <a class="link rounded-3" href="#">Myself</a>
-                        <a class="link rounded-3" href="#">Skills</a>
-                        <a class="link rounded-3" href="#">Quote</a>
+                        <a class="link rounded-3" href="#myself">Myself</a>
+                        <a class="link rounded-3" href="#skill">Skills</a>
+                        <a class="link rounded-3" href="#quote">Quote</a>
                     </div>
                 </div>
                 <div class="">
@@ -263,8 +269,8 @@
                 <div class="">
                     <div class="d-flex flex-column justify-content-center gap-2">
                         <span class="fw-bold">Project </span>
-                        <span class="link rounded-3">Website OSPK</span>
-                        <span class="link rounded-3">Dynamic WebClass</span>
+                        <span class="link rounded-3">Website OSIS</span>
+                        <span class="link rounded-3">WebClass</span>
                         <span class="link rounded-3">To Do List</span>
                     </div>
                 </div>

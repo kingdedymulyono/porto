@@ -196,34 +196,37 @@
   transition: 0.6s;
   bottom: 4px;
 }
+#projectImg{
+    max-width: 40dvw !important;
+}
 @media (max-width:960px) {
     .skillImg {
         max-width: 36dvw !important;
         aspect-ratio: 1/1;
         object-fit: cover;
     }
-
+    
     #btn1 {
         padding: 1rem !important;
         font-size: 1.6rem;
     }
-
+    
     #skillFlex {
         flex-direction: column !important;
     }
 }
 
 @media (max-width:640px) {
-
+    
     .heroDiv {
         width: fit-content !important;
         overflow: hidden;
     }
-
+    
     .halfDivJcs {
         justify-content: start !important;
     }
-
+    
     #topDiv {
         flex-direction: column !important;
     }
@@ -231,56 +234,59 @@
     #topDiv h1 {
         font-size: 4rem;
     }
-
+    
     #topDiv h4 {
         font-size: 2rem;
     }
-
+    
     #btn1 {
         margin-top: 2rem !important;
         font-size: 1.5rem;
     }
-
+    
     #box1 {
         margin-top: 0;
     }
-
+    
     .flexRow {
         flex-direction: column !important;
         justify-content: center;
     }
-
+    
     #flexjca {
         flex-direction: row !important;
     }
-
+    
     .textBox1 {
         max-width: 90dvw !important;
     }
-
+    
     #noFlex1 {
         flex-direction: row !important;
     }
-
+    
     /* #reverseFlex1{
         flex-direction: row-reverse !important  ;
-    } */
-    #noRow1 {
-        flex-direction: row !important;
-    }
-
-    .halfDiv {
-        width: 100dvw !important;
+        } */
+        #noRow1 {
+            flex-direction: row !important;
+        }
+        
+        .halfDiv {
+            width: 100dvw !important;
         padding: 0 !important;
     }
-
+    
     .boxImg {
         width: 80dvw !important;
     }
-
+    
     .smallCard {
         display: none;
         width: 100% !important;
+    }
+    #projectImg{
+        max-width: 80dvw !important;
     }
 
     .skillBox {
@@ -290,5 +296,8 @@
 
     .phoneCardBox {
         width: 80dvw !important;
+    }
+    .myImg , .friendImg {
+        max-width: 10dvw !important;
     }
 }
