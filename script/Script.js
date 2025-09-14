@@ -63,7 +63,7 @@ const getMusic = async (x) => {
                 }
                 if (item.songName == arrSong[x]) {
                     playlist.innerHTML = `
-                    <img src="../public/songs/${item.fileName}" alt="" class="songCover rounded-4">
+                    <img src="./public/songs/${item.fileName}" alt="" class="songCover rounded-4">
                     <p class="songName fw-bold text-center m-0">${item.songName}</p>
                     <p class="songBand text-center m-0">${item.songBand}</p>
                     <progress value="0" max="100" class="songProgress" id="songProgress"></progress>
