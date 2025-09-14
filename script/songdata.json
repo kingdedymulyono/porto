@@ -1,0 +1,106 @@
+[
+  {
+    "id": 0,
+    "songName": "Loving Me, Loving You",
+    "songReleaseDate": "2023-08-18",
+    "songDuration": "3:24",
+    "songBand": "Kohana Lam",
+    "fileName": "lovingmelovingyou.jpeg"
+  },
+  {
+    "id": 2,
+    "songName": "Dear God",
+    "songReleaseDate": "2007-10-30",
+    "songDuration": "6:33",
+    "songBand": "Avenged Sevenfold",
+    "fileName": "deargod.jpeg"
+  },
+  {
+    "id": 3,
+    "songName": "I am...",
+    "songReleaseDate": "2022-10-19",
+    "songDuration": "3:53",
+    "songBand": "Atarayo",
+    "fileName": "iam.jpeg"
+  },
+  {
+    "id": 4,
+    "songName": "Under the Tree",
+    "songReleaseDate": "2023-03-15",
+    "songDuration": "3:45",
+    "songBand": "SiM",
+    "fileName": "underthetree.jpeg"
+  },
+  {
+    "id": 5,
+    "songName": "Is There Still Anything That Love Can Do?",
+    "songReleaseDate": "2019-06-26",
+    "songDuration": "6:54",
+    "songBand": "RADWIMPS",
+    "fileName": "istherestillanythinglovecando.jpeg"
+  },
+  {
+    "id": 6,
+    "songName": "Sparkle",
+    "songReleaseDate": "2016-08-24",
+    "songDuration": "6:07",
+    "songBand": "RADWIMPS",
+    "fileName": "sparkle.jpeg"
+  },
+  {
+    "id": 7,
+    "songName": "Hikaru Nara",
+    "songReleaseDate": "2014-10-22",
+    "songDuration": "4:17",
+    "songBand": "Goose house",
+    "fileName": "hikarunara.jpeg"
+  },
+  {
+    "id": 8,
+    "songName": "Cancer",
+    "songReleaseDate": "2006-10-24",
+    "songDuration": "2:22",
+    "songBand": "My Chemical Romance",
+    "fileName": "cancer.jpeg"
+  },
+  {
+    "id": 9,
+    "songName": "Line Without a Hook",
+    "songReleaseDate": "2016-05-20",
+    "songDuration": "4:09",
+    "songBand": "Ricky Montgomery",
+    "fileName": "alinewithoutahook.jpeg"
+  },
+  {
+    "id": 10,
+    "songName": "So Far Away",
+    "songReleaseDate": "2010-07-19",
+    "songDuration": "5:27",
+    "songBand": "Avenged Sevenfold",
+    "fileName": "sofaraway.jpeg"
+  },
+  {
+    "id": 11,
+    "songName": "A Thousand Years",
+    "songReleaseDate": "2011-10-18",
+    "songDuration": "4:45",
+    "songBand": "Christina Perri",
+    "fileName": "athousandyear.jpeg"
+  },
+  {
+    "id": 12,
+    "songName": "drunk text",
+    "songReleaseDate": "2023-10-13",
+    "songDuration": "3:07",
+    "songBand": "Henry Moodie",
+    "fileName": "drunktext.jpeg"
+  },
+  {
+    "id": 13,
+    "songName": "Cars Outside",
+    "songReleaseDate": "2018-10-26",
+    "songDuration": "4:08",
+    "songBand": "James Arthur",
+    "fileName": "carsoutside.jpeg"
+  }
+]

@@ -1,16 +1,18 @@
 body {
-    overflow-x: hidden !important;
-    padding: 0;
-    font-family: "Raleway" !important;
-    font-style: normal;
-    min-height: 300dvh !important;
-    max-width: 100dvw !important;
-}   
-.heroDiv{
-    /* width: fit-content !important   ; */
-    overflow: hidden;
+  overflow-x: hidden !important;
+  padding: 0;
+  font-family: "Raleway" !important;
+  font-style: normal;
+  min-height: 300dvh !important;
+  max-width: 100dvw !important;
 }
-button {
+
+.heroDiv {
+  /* width: fit-content !important   ; */
+  overflow: hidden;
+}
+
+/* button {
   border-radius: 8px !important;
   border: 1px solid transparent;
   padding: 0.6em !important;
@@ -20,15 +22,16 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-.myImg{
-  max-width: 4dvw ;
+} */
+.myImg {
+  max-width: 4dvw;
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 50%;
 }
-.friendImg{
-  max-width: 4dvw ;
+
+.friendImg {
+  max-width: 4dvw;
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 50%;
@@ -37,28 +40,56 @@ button {
   transition: all 0.4s;
   position: relative;
 }
-.friendImg:hover{
+
+.friendImg:hover {
   margin-right: .5rem;
   transition: 0.6s;
   bottom: 4px;
 }
-.link{
-  transition:all 1s;
+
+.link {
+  transition: all 1s;
   padding: 0.2rem 0.4rem;
-  background-color: rgba(0,0 , 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
-#bgbox3{
+
+.songProgress {
+  height: 1rem !important;
+  width: 50dvw;
+  /* border: 0; */
+  /* border-radius: 100%; */
+}
+
+.songBtn {
+  min-height: fit-content !important;
+  height: 6dvw;
+  aspect-ratio: 1/1 !important;
+  object-fit: contain;
+  justify-self: center;
+  padding: .6rem !important;
+}
+
+.songCover {
+  width: 20rem;
+}
+
+#bgbox3 {
   background-image: url("../public/bg1.png");
 }
-.link:hover{
+
+.link:hover {
   color: white !important;
   background-color: black;
-  transition:all 1s;
+  transition: all 1s;
   cursor: pointer;
 }
+
 @media (max-width:720px) {
-  .heroDiv{
-    width: fit-content !important   ;
+  .heroDiv {
+    width: fit-content !important;
     overflow: hidden;
-}
+  }
+  .songBtn {
+    padding: 1rem !important;
+  }
 }

@@ -6,6 +6,7 @@
 #topDiv {
     margin-top: 0 !important;
     display: flex;
+    max-width: 100dvw !important;
 }
 
 #topDiv h1 {
@@ -30,9 +31,11 @@
     background-image: linear-gradient(135deg, #0d6efd, #ffffff);
     width: 100dvw !important;
 }
-#box5{
+
+#box5 {
     min-height: 100dvh !important;
 }
+
 #btn1 {
     color: white !important;
     background-color: rgba(255, 255, 255, 0.2);
@@ -110,12 +113,13 @@
 .fadeBox {
     /* background-color: black; */
     height: 10dvw;
+    max-width: 100dvw !important;
     background-image: linear-gradient(to top, #fff, transparent);
 }
 
 .reverseFadeBox {
     height: 16dvw;
-    width: 100dvw;
+    width: 100dvw !important;
     background-image: linear-gradient(to bottom, #fff, transparent);
 }
 
@@ -177,117 +181,125 @@
 .mt-4 {
     margin-top: 4rem !important;
 }
-.myImg{
-  max-width: 4dvw ;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 50%;
+
+.myImg {
+    max-width: 4dvw;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
 }
-.friendImg{
-  max-width: 4dvw ;
-  aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 1px solid white;
-  margin-left: -.64rem;
-  transition: all 0.4s;
-  position: relative;
+
+.friendImg {
+    max-width: 4dvw;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-left: -.64rem;
+    transition: all 0.4s;
+    position: relative;
 }
-.friendImg:hover{
-  margin-right: .5rem;
-  transition: 0.6s;
-  bottom: 4px;
+
+.friendImg:hover {
+    margin-right: .5rem;
+    transition: 0.6s;
+    bottom: 4px;
 }
-#projectImg{
+
+#projectImg {
     max-width: 40dvw !important;
 }
+
 @media (max-width:960px) {
     .skillImg {
         max-width: 36dvw !important;
         aspect-ratio: 1/1;
         object-fit: cover;
     }
-    
+
     #btn1 {
         padding: 1rem !important;
         font-size: 1.6rem;
     }
-    
+
     #skillFlex {
         flex-direction: column !important;
     }
 }
 
 @media (max-width:640px) {
-    
+
     .heroDiv {
         width: fit-content !important;
         overflow: hidden;
     }
-    
+
     .halfDivJcs {
         justify-content: start !important;
     }
-    
+
     #topDiv {
         flex-direction: column !important;
+        max-width: 100dvw !important;
+
     }
 
     #topDiv h1 {
         font-size: 4rem;
     }
-    
+
     #topDiv h4 {
         font-size: 2rem;
     }
-    
+
     #btn1 {
         margin-top: 2rem !important;
         font-size: 1.5rem;
     }
-    
+
     #box1 {
         margin-top: 0;
     }
-    
+
     .flexRow {
         flex-direction: column !important;
         justify-content: center;
     }
-    
+
     #flexjca {
         flex-direction: row !important;
     }
-    
+
     .textBox1 {
         max-width: 90dvw !important;
     }
-    
+
     #noFlex1 {
         flex-direction: row !important;
     }
-    
+
     /* #reverseFlex1{
         flex-direction: row-reverse !important  ;
         } */
-        #noRow1 {
-            flex-direction: row !important;
-        }
-        
-        .halfDiv {
-            width: 100dvw !important;
+    #noRow1 {
+        flex-direction: row !important;
+    }
+
+    .halfDiv {
+        width: 100dvw !important;
         padding: 0 !important;
     }
-    
+
     .boxImg {
         width: 80dvw !important;
     }
-    
+
     .smallCard {
         display: none;
         width: 100% !important;
     }
-    #projectImg{
+
+    #projectImg {
         max-width: 80dvw !important;
     }
 
@@ -299,7 +311,9 @@
     .phoneCardBox {
         width: 80dvw !important;
     }
-    .myImg , .friendImg {
+
+    .myImg,
+    .friendImg {
         max-width: 10dvw !important;
     }
 }
