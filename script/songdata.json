@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "songName": "Is There Still Anything That Love Can Do?",
+    "songName": "愛にできることはまだあるかい",
     "songReleaseDate": "2019-06-26",
     "songDuration": "6:54",
     "songBand": "RADWIMPS",
@@ -58,6 +58,16 @@
     "fileName": "sparkle.jpeg",
     "audioFile": "sparkle.mp3",
     "gifFile": "sparkle.gif"
+  },
+  {
+    "id": 7,
+    "songName": "Hikaru Nara",
+    "songReleaseDate": "2014-10-22",
+    "songDuration": "4:17",
+    "songBand": "Goose house",
+    "audioFile": "hikarunara.mp3",
+    "fileName": "hikarunara.jpeg",
+    "gifFile": "hikarunara.gif"
   },
   {
     "id": 8,
@@ -118,5 +128,15 @@
     "fileName": "carsoutside.jpeg",
     "audioFile": "carsoutside.mp3",
     "gifFile": "carsoutside.gif"
+  },
+  {
+    "id": 8,
+    "songName": "See You Again",
+    "songReleaseDate": "2015-03-10",
+    "songDuration": "3:50",
+    "songBand": "Wiz Khalifa ft. Charlie Puth",
+    "fileName": "seeyouagain.jpeg",
+    "audioFile": "seeyouagain.mp3",
+    "gifFile": "seeyouagain.gif"
   }
 ]

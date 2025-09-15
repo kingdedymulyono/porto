@@ -1,40 +1,30 @@
 body {
-  overflow-x: hidden ;
-  overflow-y: hidden ;
+  overflow-x: hidden;
+  overflow-y: hidden;
   padding: 0;
   font-family: "Raleway" !important;
   font-style: normal;
   min-height: 300dvh !important;
   max-width: 100dvw !important;
 }
-#loadingBox{
+
+#loadingBox {
   position: absolute;
-  width: 100dvw ;
-  height: 100dvh ;
+  width: 100dvw;
+  height: 100dvh;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;
   background-color: white;
 }
+
 .heroDiv {
-  /* width: fit-content !important   ; */
   padding: .2rem;
   overflow: hidden;
 }
 
-/* button {
-  border-radius: 8px !important;
-  border: 1px solid transparent;
-  padding: 0.6em !important;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-} */
 .myImg {
   max-width: 4dvw;
   aspect-ratio: 1/1;
@@ -64,7 +54,8 @@ body {
   padding: 0.2rem 0.4rem;
   background-color: rgba(0, 0, 0, 0.1);
 }
-.playlist{
+
+.playlist {
   font-family: Helvetica;
   font-weight: light;
   background-image: url("../public/songs/gif/deargod.gif");
@@ -73,21 +64,33 @@ body {
   padding-top: 6rem;
   padding-bottom: 6rem;
   margin: 8rem 0;
-}
-.songGlassBox{
-  backdrop-filter: blur(8px);
-  background-color: rgba(255, 255, 255, .6);
-}
-#duration{
-  transform: scale(1.2);
-}
-.songProgress {
-  height: 1rem !important;
-  width: 50dvw;
-  /* border: 0; */
-  /* border-radius: 100%; */
+  box-shadow: inset 0 0 2rem 4px white; 
 }
 
+.songGlassBox {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, .6);
+  box-shadow: inset 0 0 16px 4px white; 
+}
+
+#duration {
+  transform: scale(1.2);
+}
+#songProgress{
+  -webkit-appearance: none;
+  height: 1rem;
+  background:white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+#songProgress::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  background: #000;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: .25rem solid #fff;
+  border-radius: 1rem;
+}
 .songBtn {
   min-height: fit-content !important;
   height: 3dvw;
@@ -98,11 +101,12 @@ body {
 }
 
 .songCover {
+  box-shadow: inset 0 0 16px 4px white; 
   width: 20rem;
 }
 
 #bgbox3 {
-  background-image: url("./public/bg1.png");
+  background-image: url("../public/bg1.png");
 }
 
 .link:hover {
@@ -117,36 +121,43 @@ body {
     width: fit-content !important;
     overflow: hidden;
   }
+
   .songBtn {
     padding: 1rem !important;
   }
 }
+
 .loader {
   width: 12dvw;
   aspect-ratio: 1;
-  display:grid;
-  mask: conic-gradient(from 15deg,#0000,#000);
+  display: grid;
+  mask: conic-gradient(from 15deg, #0000, #000);
   animation: l26 1s infinite steps(12);
 }
+
 .loader,
 .loader:before,
-.loader:after{
+.loader:after {
   background:
     radial-gradient(closest-side at 50% 12.5%,
-     #000 96%,#0000) 50% 0/20% 80% repeat-y,
+      #000 96%, #0000) 50% 0/20% 80% repeat-y,
     radial-gradient(closest-side at 12.5% 50%,
-     #000 96%,#0000) 0 50%/80% 20% repeat-x;
+      #000 96%, #0000) 0 50%/80% 20% repeat-x;
 }
+
 .loader:before,
 .loader:after {
   content: "";
   grid-area: 1/1;
   transform: rotate(30deg);
 }
+
 .loader:after {
   transform: rotate(60deg);
 }
 
 @keyframes l26 {
-  100% {transform:rotate(1turn)}
+  100% {
+    transform: rotate(1turn)
+  }
 }
