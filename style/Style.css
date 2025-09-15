@@ -52,7 +52,13 @@ body {
   padding: 0.2rem 0.4rem;
   background-color: rgba(0, 0, 0, 0.1);
 }
-
+.playlist{
+  font-family: Helvetica;
+  font-weight: light;
+}
+#duration{
+  transform: scale(1.2);
+}
 .songProgress {
   height: 1rem !important;
   width: 50dvw;
@@ -74,7 +80,7 @@ body {
 }
 
 #bgbox3 {
-  background-image: url("../public/bg1.png");
+  background-image: url("./public/bg1.png");
 }
 
 .link:hover {

@@ -5,7 +5,8 @@
     "songReleaseDate": "2023-08-18",
     "songDuration": "3:24",
     "songBand": "Kohana Lam",
-    "fileName": "lovingmelovingyou.jpeg"
+    "fileName": "lovingmelovingyou.jpeg",
+    "audioFile": "lovingmelovingyou.mp3"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "songReleaseDate": "2007-10-30",
     "songDuration": "6:33",
     "songBand": "Avenged Sevenfold",
-    "fileName": "deargod.jpeg"
+    "fileName": "deargod.jpeg",
+    "audioFile": "deargod.mp3"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "songReleaseDate": "2022-10-19",
     "songDuration": "3:53",
     "songBand": "Atarayo",
-    "fileName": "iam.jpeg"
+    "fileName": "iam.jpeg",
+    "audioFile": "iam.mp3"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "songReleaseDate": "2023-03-15",
     "songDuration": "3:45",
     "songBand": "SiM",
-    "fileName": "underthetree.jpeg"
+    "fileName": "underthetree.jpeg",
+    "audioFile": "underthetree.mp3"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "songReleaseDate": "2019-06-26",
     "songDuration": "6:54",
     "songBand": "RADWIMPS",
-    "fileName": "istherestillanythinglovecando.jpeg"
+    "fileName": "istherestillanythinglovecando.jpeg",
+    "audioFile": "istherestillanythinglovecando.mp3"
   },
   {
     "id": 6,
@@ -45,15 +50,8 @@
     "songReleaseDate": "2016-08-24",
     "songDuration": "6:07",
     "songBand": "RADWIMPS",
-    "fileName": "sparkle.jpeg"
-  },
-  {
-    "id": 7,
-    "songName": "Hikaru Nara",
-    "songReleaseDate": "2014-10-22",
-    "songDuration": "4:17",
-    "songBand": "Goose house",
-    "fileName": "hikarunara.jpeg"
+    "fileName": "sparkle.jpeg",
+    "audioFile": "sparkle.mp3"
   },
   {
     "id": 8,
@@ -61,7 +59,8 @@
     "songReleaseDate": "2006-10-24",
     "songDuration": "2:22",
     "songBand": "My Chemical Romance",
-    "fileName": "cancer.jpeg"
+    "fileName": "cancer.jpeg",
+    "audioFile": "cancer.mp3"
   },
   {
     "id": 9,
@@ -69,7 +68,8 @@
     "songReleaseDate": "2016-05-20",
     "songDuration": "4:09",
     "songBand": "Ricky Montgomery",
-    "fileName": "alinewithoutahook.jpeg"
+    "fileName": "alinewithoutahook.jpeg",
+    "audioFile": "alinewithoutahook.mp3"
   },
   {
     "id": 10,
@@ -77,7 +77,8 @@
     "songReleaseDate": "2010-07-19",
     "songDuration": "5:27",
     "songBand": "Avenged Sevenfold",
-    "fileName": "sofaraway.jpeg"
+    "fileName": "sofaraway.jpeg",
+    "audioFile": "sofaraway.mp3"
   },
   {
     "id": 11,
@@ -85,7 +86,8 @@
     "songReleaseDate": "2011-10-18",
     "songDuration": "4:45",
     "songBand": "Christina Perri",
-    "fileName": "athousandyear.jpeg"
+    "fileName": "athousandyear.jpeg",
+    "audioFile": "athousandyear.mp3"
   },
   {
     "id": 12,
@@ -93,7 +95,8 @@
     "songReleaseDate": "2023-10-13",
     "songDuration": "3:07",
     "songBand": "Henry Moodie",
-    "fileName": "drunktext.jpeg"
+    "fileName": "drunktext.jpeg",
+    "audioFile": "drunktext.mp3"
   },
   {
     "id": 13,
@@ -101,6 +104,7 @@
     "songReleaseDate": "2018-10-26",
     "songDuration": "4:08",
     "songBand": "James Arthur",
-    "fileName": "carsoutside.jpeg"
+    "fileName": "carsoutside.jpeg",
+    "audioFile": "carsoutside.mp3"
   }
 ]
