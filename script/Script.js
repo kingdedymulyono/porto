@@ -1,7 +1,9 @@
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".placeholder").forEach((ph) => {
         ph.classList.remove("placeholder")
     })
+    document.getElementById("loadingBox").style.display = "none"
+    document.body.style.overflowY = "auto"
 })
 const projectName = document.getElementById("projectName");
 const projectText = document.getElementById("projectText");
@@ -69,7 +71,7 @@ const getMusic = async (x) => {
                 }
                 if (item.songName == arrSong[x]) {
                     playlist.innerHTML = `
-                    <img src="./public/songs/${item.fileName}" alt="" class="songCover rounded-4">
+                    <img src="./public/songs/${item.fileName}" alt="" class="songCover rounded-5 shadoe-lg">
         <p class="songName fw-bold text-center m-0">${item.songName}</p>
         <p class="songBand text-center m-0">${item.songBand}</p>
         <progress id="songProgress" value="0" max="100" class=" w-50"></progress>
