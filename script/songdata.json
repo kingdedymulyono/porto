@@ -6,7 +6,8 @@
     "songDuration": "3:24",
     "songBand": "Kohana Lam",
     "fileName": "lovingmelovingyou.jpeg",
-    "audioFile": "lovingmelovingyou.mp3"
+    "audioFile": "lovingmelovingyou.mp3",
+    "gifFile": "lovingmelovingyou.gif"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "songDuration": "6:33",
     "songBand": "Avenged Sevenfold",
     "fileName": "deargod.jpeg",
-    "audioFile": "deargod.mp3"
+    "audioFile": "deargod.mp3",
+    "gifFile": "deargod.gif"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "songDuration": "3:53",
     "songBand": "Atarayo",
     "fileName": "iam.jpeg",
-    "audioFile": "iam.mp3"
+    "audioFile": "iam.mp3",
+    "gifFile": "iam.gif"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "songDuration": "3:45",
     "songBand": "SiM",
     "fileName": "underthetree.jpeg",
-    "audioFile": "underthetree.mp3"
+    "audioFile": "underthetree.mp3",
+    "gifFile": "underthetree.gif"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "songDuration": "6:54",
     "songBand": "RADWIMPS",
     "fileName": "istherestillanythinglovecando.jpeg",
-    "audioFile": "istherestillanythinglovecando.mp3"
+    "audioFile": "istherestillanythinglovecando.mp3",
+    "gifFile": "istherestillanythinglovecando.gif"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "songDuration": "6:07",
     "songBand": "RADWIMPS",
     "fileName": "sparkle.jpeg",
-    "audioFile": "sparkle.mp3"
+    "audioFile": "sparkle.mp3",
+    "gifFile": "sparkle.gif"
   },
   {
     "id": 8,
@@ -60,7 +66,8 @@
     "songDuration": "2:22",
     "songBand": "My Chemical Romance",
     "fileName": "cancer.jpeg",
-    "audioFile": "cancer.mp3"
+    "audioFile": "cancer.mp3",
+    "gifFile": "cancer.gif"
   },
   {
     "id": 9,
@@ -69,7 +76,8 @@
     "songDuration": "4:09",
     "songBand": "Ricky Montgomery",
     "fileName": "alinewithoutahook.jpeg",
-    "audioFile": "alinewithoutahook.mp3"
+    "audioFile": "alinewithoutahook.mp3",
+    "gifFile": "alinewithoutahook.gif"
   },
   {
     "id": 10,
@@ -78,7 +86,8 @@
     "songDuration": "5:27",
     "songBand": "Avenged Sevenfold",
     "fileName": "sofaraway.jpeg",
-    "audioFile": "sofaraway.mp3"
+    "audioFile": "sofaraway.mp3",
+    "gifFile": "sofaraway.gif"
   },
   {
     "id": 11,
@@ -87,7 +96,8 @@
     "songDuration": "4:45",
     "songBand": "Christina Perri",
     "fileName": "athousandyear.jpeg",
-    "audioFile": "athousandyear.mp3"
+    "audioFile": "athousandyear.mp3",
+    "gifFile": "athousandyear.gif"
   },
   {
     "id": 12,
@@ -96,7 +106,8 @@
     "songDuration": "3:07",
     "songBand": "Henry Moodie",
     "fileName": "drunktext.jpeg",
-    "audioFile": "drunktext.mp3"
+    "audioFile": "drunktext.mp3",
+    "gifFile": "drunktext.gif"
   },
   {
     "id": 13,
@@ -105,6 +116,7 @@
     "songDuration": "4:08",
     "songBand": "James Arthur",
     "fileName": "carsoutside.jpeg",
-    "audioFile": "carsoutside.mp3"
+    "audioFile": "carsoutside.mp3",
+    "gifFile": "carsoutside.gif"
   }
 ]

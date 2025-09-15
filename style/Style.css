@@ -67,6 +67,16 @@ body {
 .playlist{
   font-family: Helvetica;
   font-weight: light;
+  background-image: url("../public/songs/gif/deargod.gif");
+  background-size: cover;
+  background-position: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin: 8rem 0;
+}
+.songGlassBox{
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, .6);
 }
 #duration{
   transform: scale(1.2);
@@ -80,7 +90,7 @@ body {
 
 .songBtn {
   min-height: fit-content !important;
-  height: 6dvw;
+  height: 3dvw;
   aspect-ratio: 1/1 !important;
   object-fit: contain;
   justify-self: center;

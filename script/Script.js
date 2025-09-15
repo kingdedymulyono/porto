@@ -71,31 +71,34 @@ const getMusic = async (x) => {
                 }
                 if (item.songName == arrSong[x]) {
                     playlist.innerHTML = `
-                    <img src="./public/songs/${item.fileName}" alt="" class="songCover rounded-5 shadoe-lg">
-        <p class="songName fw-bold text-center m-0">${item.songName}</p>
-        <p class="songBand text-center m-0">${item.songBand}</p>
-        <progress id="songProgress" value="0" max="100" class=" w-50"></progress>
-        <audio id="song" src="./public/songs/mp3/${item.audioFile}"></audio>
-        <div class="w-50 d-flex justify-content-between align-items-center">
-            <p class="songDuration text-center m-0 fw-semibold">00:00</p>
-            <p id="duration" class="songDuration text-center m-0 fw-semibold">00:00</p>
-            <p id="songLen"class="songDuration text-center m-0 fw-semibold">00:00</p>
-        </div>
-        <div class="songControl text-center d-flex w-50 justify-content-around">
-            <button type="button"
-                class="songBtn songPrev btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
-                <i class="fa songPrev fa-solid fa-backward"></i>
-            </button>
-            <button type="button"
-                class="songBtn songPlay btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
-                <i class="songPlay fa-solid fa-Icon fa-play"></i>
-            </button>
-            <button type="button"
-                class="songBtn songNext btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
-                <i class="fa-solid songNext fa-Icon fa-forward"></i>
-            </button>
-        </div>
+                    <div class="songGlassBox shadow-lg p-4 rounded-5">
+                        <img src="./public/songs/${item.fileName}" alt="" class="songCover rounded-4 shadow-lg">
+                        <p class="songName fw-bold text-center m-0">${item.songName}</p>
+                        <p class="songBand text-center m-0">${item.songBand}</p>
+                        <progress id="songProgress" value="0" max="100" class=" w-100"></progress>
+                        <audio id="song" src="./public/songs/mp3/${item.audioFile}"></audio>
+                        <div class="w-100 d-flex justify-content-between align-items-center">
+                        <p class="songDuration text-center m-0 fw-semibold">00:00</p>
+                        <p id="duration" class="songDuration text-center m-0 fw-semibold">00:00</p>
+                        <p id="songLen"class="songDuration text-center m-0 fw-semibold">00:00</p>
+                        </div>
+                        <div class="songControl text-center d-flex w-100 justify-content-around">
+                            <button type="button"
+                            class="songBtn songPrev btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="fa songPrev fa-solid fa-backward"></i>
+                            </button>
+                            <button type="button"
+                            class="songBtn songPlay btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="songPlay fa-solid fa-Icon fa-play"></i>
+                            </button>
+                            <button type="button"
+                            class="songBtn songNext btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
+                            <i class="fa-solid songNext fa-Icon fa-forward"></i>
+                            </button>
+                        </div>
+                    </div>
                             `
+                    playlist.style.backgroundImage = `url(./public/songs/gif/${item.gifFile})`
                     duration = document.getElementById("duration");
                     progress = document.getElementById("songProgress");
                     song = document.getElementById("song");
