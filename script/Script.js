@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", function() {
         ph.classList.remove("placeholder")
     })
     document.getElementById("loadingBox").style.display = "none"
+    // document.getElementById("test").remove()
     document.body.style.overflowY = "auto"
 })
 const projectName = document.getElementById("projectName");
@@ -60,101 +61,3 @@ const handleChangePrev = () => {
         changeProject(i)
     }
 }
-
-const getMusic = async (x) => {
-    fetch('script/songdata.json')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach((item) => {
-                if (!arrSong.includes(item.songName)) {
-                    arrSong.push(item.songName)
-                }
-                if (item.songName == arrSong[x]) {
-                    playlist.innerHTML = `
-                    <div class="songGlassBox p-4 rounded-5">
-                        <img src="./public/songs/${item.fileName}" alt="" class="songCover rounded-4">
-                        <h5 class="songName fw-bold text-center mb-0 mt-2">${item.songName}</h5>
-                        <h6 class="songBand text-center m-0">${item.songBand}</h6>
-                        <input type="range" id="songProgress" value="0" max="100" class=" w-100"></input>
-                        <audio id="song" src="./public/songs/mp3/${item.audioFile}"></audio>
-                        <div class="w-100 d-flex justify-content-between align-items-center">
-                        <p class="songDuration text-center m-0 fw-semibold">00:00</p>
-                        <p id="duration" class="songDuration text-center m-0 fw-semibold">00:00</p>
-                        <p id="songLen"class="songDuration text-center m-0 fw-semibold">00:00</p>
-                        </div>
-                        <div class="songControl text-center d-flex w-100 justify-content-around">
-                            <button type="button"
-                            class="songBtn songPrev btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
-                            <i class="fa songPrev fa-solid fa-backward"></i>
-                            </button>
-                            <button type="button"
-                            class="songBtn songPlay btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
-                            <i class="songPlay fa-solid fa-Icon fa-play"></i>
-                            </button>
-                            <button type="button"
-                            class="songBtn songNext btn btn-outline-dark rounded-circle d-flex justify-content-center align-items-center">
-                            <i class="fa-solid songNext fa-Icon fa-forward"></i>
-                            </button>
-                        </div>
-                    </div>
-                            `
-                    playlist.style.backgroundImage = `url(./public/songs/gif/${item.gifFile})`
-                    duration = document.getElementById("duration");
-                    progress = document.getElementById("songProgress");
-                    song = document.getElementById("song");
-                    songLength = document.getElementById("songLen");
-                    song.addEventListener('loadedmetadata', () => {
-                        progress.max = song.duration;
-                    });
-                    progress.addEventListener("change", () => {
-                        song.currentTime = progress.value;
-                    })
-                    setInterval(() => {
-                        let min = Math.floor(song.currentTime / 60);
-                        let sec = Math.floor(song.currentTime % 60);
-                        if (sec < 10) {
-                            sec = `0${sec}`
-                        }
-                        duration.innerHTML = `0${min}:${sec}`
-                        progress.value = song.currentTime
-
-
-                        let minLen = Math.floor(song.duration / 60);
-                        let secLen = Math.floor(song.duration % 60);
-                        if (secLen < 10) {
-                            secLen = `0${secLen}`
-                        }
-                        songLength.innerHTML = `0${minLen}:${secLen}`
-                    }, 1000);
-                }
-            })
-        })
-}
-getMusic(0)
-playlist.addEventListener("click", (e) => {
-    console.log(e.target.className);
-    if (e.target.className.toLowerCase().includes("songnext")) {
-        console.log(x);
-        if (x <= arrSong.length - 1) {
-            getMusic(x + 1)
-            x++
-        }
-    } else if (e.target.className.toLowerCase().includes("songprev")) {
-        if (x >= 0) {
-            getMusic(x - 1)
-            x--
-        }
-    } else if (e.target.className.toLowerCase().includes("songplay")) {
-        if (!songPlay) {
-            document.querySelector(".songPlay i").classList.remove("fa-play")
-            document.querySelector(".songPlay i").classList.add("fa-pause")
-            song.play()
-            songPlay = true
-        } else {
-            document.querySelector(".songPlay i").classList.remove("fa-pause")
-            document.querySelector(".songPlay i").classList.add("fa-play")
-            song.pause()
-            songPlay = false
-        }
-    }
-})

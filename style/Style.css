@@ -55,56 +55,6 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.playlist {
-  font-family: Helvetica;
-  font-weight: light;
-  background-image: url("../public/songs/gif/deargod.gif");
-  background-size: cover;
-  background-position: center;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  margin: 8rem 0;
-  box-shadow: inset 0 0 2rem 4px white; 
-}
-
-.songGlassBox {
-  backdrop-filter: blur(8px);
-  background-color: rgba(255, 255, 255, .6);
-  box-shadow: inset 0 0 16px 4px white; 
-}
-
-#duration {
-  transform: scale(1.2);
-}
-#songProgress{
-  -webkit-appearance: none;
-  height: 1rem;
-  background:white;
-  border-radius: 1rem;
-  cursor: pointer;
-}
-#songProgress::-webkit-slider-thumb{
-  -webkit-appearance: none;
-  background: #000;
-  width: 1.6rem;
-  height: 1.6rem;
-  border: .25rem solid #fff;
-  border-radius: 1rem;
-}
-.songBtn {
-  min-height: fit-content !important;
-  height: 3dvw;
-  aspect-ratio: 1/1 !important;
-  object-fit: contain;
-  justify-self: center;
-  padding: .6rem !important;
-}
-
-.songCover {
-  box-shadow: inset 0 0 16px 4px white; 
-  width: 20rem;
-}
-
 #bgbox3 {
   background-image: url("../public/bg1.png");
 }
